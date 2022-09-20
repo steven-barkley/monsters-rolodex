@@ -15,9 +15,9 @@ Node.js
 
 ## Indemand skills
 
-https://roadmap.sh/frontend
-https://roadmap.sh/backend
-https://roadmap.sh/react
+https://roadmap.sh/frontend /
+https://roadmap.sh/backend /
+https://roadmap.sh/react 
 
 Experience creating application interfaces with JavaScript / Web3.js / React
 Clear understanding of blockchain technologies. (Algor and and more)
