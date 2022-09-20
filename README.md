@@ -6,10 +6,18 @@ by Date and Job title
 September 20, 2022
 
 My compensation goal is 61,000 
-My work position is Full Stack Developer
-My tech stack skills are HTML CSS JAVASCRIPT
+My work position is (MERN STACK) Developer 
+
+MongoDB.js
+Express.js
+React.js
+Node.js
 
 ## Indemand skills
+
+https://roadmap.sh/frontend
+https://roadmap.sh/backend
+https://roadmap.sh/react
 
 Experience creating application interfaces with JavaScript / Web3.js / React
 Clear understanding of blockchain technologies. (Algor and and more)
@@ -23,7 +31,7 @@ Experience with GIT source control
 
 The UX goal of our project is to take a highly technical and difficult topic and translate that into a beautiful, intuitive, and functional interface.
 
-CANDIDATE QUALITIES
+## CANDIDATE QUALITIES
 
 Ability to communicate clearly and efficiently
 Dedication to meet project deadlines in a timely manner
@@ -32,11 +40,9 @@ Write “I am a human” at the top of your proposal
 Attention to details
 Willingness to sign an NDA
 
-A PLUS IF YOU HAVE
+## A PLUS IF YOU HAVE
 
 Start-up experience (we love entrepreneurs!)
 GCP or AWS Certification
 Experience in working with a virtual team
-Computer Science degree
-Experience in working virtually and with a virtual team.
 
