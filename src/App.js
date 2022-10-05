@@ -14,7 +14,7 @@ class App extends Component {
     };
   }
 
-  //Where do I get the list?
+  //Where do I get the list? 
   //How do I get the list?
 
   componentDidMount() {
