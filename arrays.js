@@ -1,5 +1,7 @@
-/*const myArrray = [ 1, 2 ];
+const myArrray = [ 1, 2, 5, 7, 0 ];
 
+
+/*
 filter();
 
 map();
@@ -9,7 +11,7 @@ reduce();
 find();
 
 includes();
-*/
+
 var b = 4;
 
 var c = b;
@@ -19,3 +21,5 @@ b = 7;
 
 console.log( b );
 console.log( c );
+*/
+
