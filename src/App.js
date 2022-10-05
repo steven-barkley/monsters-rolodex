@@ -12,12 +12,14 @@ class App extends Component {
     this.state = {
       monsters: [],
     };
+    console.log( 'constructor' )
   }
 
   //Where do I get the list? 
   //How do I get the list?
 
   componentDidMount() {
+    console.log( 'component did mount' );
     fetch( 'https://jsonplaceholder.typicode.com/users' )
       .then( response => response.json() )
       .then( ( users ) => this.setState( () => {
@@ -27,17 +29,31 @@ class App extends Component {
           console.log( this.state );
         }
       ) );
-
   }
 
 
   render() {
+    console.log( 'render' );
     return (
       <div className="App">
-        {
-          this.state.monsters.map( ( monster ) => {
-            return <h1 key={ monster.id }>{ monster.name }</h1>
+        <input className='search-box' type='search' placeholder='search monsters' onChange={ ( event ) => {
+
+          console.log( event.target.value );
+          const searchString = event.target.value.toLocaleLowerCase();
+          const filteredMonsters = this.state.monsters.filter( ( monster ) => {
+            return monster.name.toLocaleLowerCase().includes( event.target.value );
+
+          } );
+
+          this.setState( () => {
+            return { monsters: filteredMonsters }
           } )
+        } } />
+        { this.state.monsters.map( ( monster ) => {
+          return <div key={ monster.id }>
+            <h1>{ monster.name }</h1>
+          </div>
+        } )
         }
       </div>
     );
