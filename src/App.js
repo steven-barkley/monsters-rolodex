@@ -8,7 +8,8 @@ class App extends Component {
 
   constructor() {
     super();
-
+    //this.state is always a json object
+    //object has { key : value} pairs
     this.state = {
       monsters: [],
     };
@@ -18,6 +19,10 @@ class App extends Component {
   //Where do I get the list? 
   //How do I get the list?
 
+  // React give use a method to update State
+  // this.setState()
+
+  // example of setState function - this.setState(() => {}, () => {}) second is a callback and only run after the first is applied
   componentDidMount() {
     console.log( 'component did mount' );
     fetch( 'https://jsonplaceholder.typicode.com/users' )
